@@ -3,7 +3,7 @@
 
 ## Project Notes
 
-The program trafficreport.py queries the project's "news" database to answer the
+The program [trafficreport.py] queries the project's "news" database to answer the
 following three questions:
 
 1. What are the most popular three articles of all time? Which articles have been accessed the most? 
