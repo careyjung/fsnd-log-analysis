@@ -10,6 +10,12 @@ following three questions:
 2. Who are the most popular article authors of all time?
 3. On which days did more than 1% of requests lead to errors?
 
+## Setup
+    1. Download or clone this repo into a directory in the FSND
+       vagrant vm in which the news database has been installed
+    2. From the command line, create the two SQL views as shown below
+    3. Run the program
+
 ## Database Views
 Note that for the 3rd query, I reference the views 'errorsbydate' and
 'trafficbydate', which are defined as follows:
