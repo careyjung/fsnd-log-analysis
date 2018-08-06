@@ -13,7 +13,7 @@ following three questions:
 Note that for the 3rd query, I reference the views 'errorsbydate' and
 'trafficbydate', defined as follows:
 
-'''sql
+'''
 create view errorsbydate as select time::date as date, count(*) as errors from log where status != '200 OK' group by date;
 create view trafficbydate as select time::date as date, count(*) as views from log group by date;
 '''
